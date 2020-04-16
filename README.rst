@@ -30,10 +30,3 @@ all be done with just one button.
 					.toggleClass('btn-success');
     })
   </script>
-
-.. image:: /images/cropper-html.jpg
-  :align: center
-
-
-
-
