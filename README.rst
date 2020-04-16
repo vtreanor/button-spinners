@@ -19,14 +19,22 @@ all be done with just one button.
   <!-- javascript part, also uses bootstrap -->
   <script>
     $(function(){
-    	$("#btnUpload2").html(
-					'<span class="spinner-border spinner-border-sm" role="status"></span>\n' +
-					'<span class="sr-only"></span>\n' +
-					'Uploading...')
-          .toggleClass('btn-secondary btn-primary')
-      ;
+    	$("#btnUpload2")
+    	  .html(
+          '<span class="spinner-border spinner-border-sm" role="status"></span>\n' +
+          '<span class="sr-only"></span>\n' +
+          'Uploading...')
+        .toggleClass('btn-secondary btn-primary');
 
-			$("#btnUpload3").html('Thank you, upload complete')
-					.toggleClass('btn-success');
+			$("#btnUpload3")
+			  .html('Thank you, upload complete')
+        .toggleClass('btn-success');
     })
   </script>
+
+.. image:: /images/cropper-html.jpg
+  :align: center
+
+
+
+
