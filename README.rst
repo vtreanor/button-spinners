@@ -26,8 +26,8 @@ all be done with just one button.
           'Uploading...')
         .toggleClass('btn-secondary btn-primary');
 
-			$("#btnUpload3")
-			  .html('Thank you, upload complete')
+      $("#btnUpload3")
+        .html('Thank you, upload complete')
         .toggleClass('btn-success');
     })
   </script>
