@@ -32,9 +32,3 @@ all be done with just one button.
     })
   </script>
 
-.. image:: /images/cropper-html.jpg
-  :align: center
-
-
-
-
