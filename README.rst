@@ -26,7 +26,7 @@ all be done with just one button.
             '<span class="spinner-border spinner-border-sm" role="status"></span>\n' +
             '<span class="sr-only"></span>\n' +
             'Uploading...')
-          .toggleClass('btn-secondary btn-primary');
+          .toggleClass('btn-primary');
       }
       function endUpload(){
         $("#btnUpload3")
